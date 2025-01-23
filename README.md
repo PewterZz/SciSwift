@@ -16,7 +16,7 @@ Add this package to your project using Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/scinfu/SwiftSoup.git", from: "2.6.0"),
+    .package(url: "https://github.com/PewterZz/SciSwift.git", from: "1.0.0"),
 ]
 ```
 
@@ -25,8 +25,22 @@ dependencies: [
 ```swift
 import SciSwift
 
-let sciHub = SciHub()
-let searchResult = await sciHub.search(query: "machine learning")
-print(searchResult)
+// Initialize SciSwift with optional configuration
+let sciSwift = SciSwift()
+
+// Search for papers
+let searchResults = try await sciSwift.searchScholar(query: "machine learning")
+for result in searchResults {
+    print(result.title)
+    print(result.authors)
+    print(result.url)
+}
+
+// Download a paper using DOI
+let pdfData = try await sciSwift.downloadPaper(doi: "10.1234/example.doi")
+
+// Download a paper using URL
+let paperURL = "https://example.com/paper.pdf"
+let pdfData = try await sciSwift.downloadPaper(url: paperURL)
 ```
 
