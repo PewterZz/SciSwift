@@ -1,0 +1,4 @@
+module SciSwiftPackageTests {
+    header "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/SciSwiftPackageTests-Swift.h"
+    requires objc
+}

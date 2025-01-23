@@ -1,0 +1,53 @@
+{
+  "": {
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/master.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Configuration.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Extensions.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/HTMLParser.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Logger.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Logger~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Models.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Models.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Models.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Models~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Models.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Networking.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Networking~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/SciSwift.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwift/Utils.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Utils~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.swiftdeps"
+  }
+}

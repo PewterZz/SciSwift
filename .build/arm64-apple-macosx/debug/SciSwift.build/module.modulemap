@@ -1,0 +1,4 @@
+module SciSwift {
+    header "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift-Swift.h"
+    requires objc
+}

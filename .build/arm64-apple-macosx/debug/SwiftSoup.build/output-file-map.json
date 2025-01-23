@@ -1,0 +1,353 @@
+{
+  "": {
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/master.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/ArrayExt.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Attribute.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Attributes.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/BinarySearch.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/BooleanAttribute.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Cleaner.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Collector.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Comment.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Connection.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/CssSelector.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/DataNode.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/DataUtil.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Document.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/DocumentType.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Element.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Elements.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Entities.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Evaluator.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Exception.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/FormElement.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/HttpStatusException.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Mutex.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Node.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/NodeTraversor.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/NodeVisitor.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/OrderedSet.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/ParseError.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/ParseErrorList.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/ParseSettings.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Parser.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Pattern.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/QueryParser.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/SerializationException.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/SimpleDictionary.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/StreamReader.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/String.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/String~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/StringBuilder.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/StringUtil.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/SwiftSoup.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Tag.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/TextNode.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Token.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Tokeniser.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/TokeniserState.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/TreeBuilder.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/UnfairLock.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/UnicodeScalar.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Validate.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/Whitelist.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/XmlDeclaration.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/.build/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.swiftdeps"
+  }
+}

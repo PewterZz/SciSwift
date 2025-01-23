@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftCLI.build/master.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift/Sources/SciSwiftCLI/main.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftCLI.build/main.d",
+    "object": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftCLI.build/main.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftCLI.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift/.build/arm64-apple-macosx/debug/SciSwiftCLI.build/main.swiftdeps"
+  }
+}
