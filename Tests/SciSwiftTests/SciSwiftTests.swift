@@ -249,4 +249,61 @@ final class SciSwiftTests: XCTestCase {
         }
     }
     
+    func testSearchWithMetadata() async throws {
+        print("\n=== Starting Search Test with Metadata ===")
+        
+        // Try with a well-known paper that should have complete metadata
+        let knownPaper = "\"Attention is All You Need\" Vaswani 2017"
+        let maxRetries = 3
+        var lastError: Error?
+        
+        for attempt in 1...maxRetries {
+            do {
+                if attempt > 1 {
+                    // Exponential backoff: wait longer between each retry
+                    let delay = Double(attempt * 2)
+                    print("\nRetrying after \(delay) seconds (attempt \(attempt)/\(maxRetries))...")
+                    try await Task.sleep(nanoseconds: UInt64(delay * 1_000_000_000))
+                }
+                
+                print("\nTrying search query: '\(knownPaper)'")
+                let results = try await sciHub.search(query: knownPaper, limit: 1)
+                
+                print("Search response received")
+                if let error = results.error {
+                    print("Search error: \(error)")
+                    continue
+                }
+                
+                print("Found \(results.papers.count) papers")
+                
+                for (index, paper) in results.papers.enumerated() {
+                    print("\n=== Paper \(index + 1) ===")
+                    print("Title: \(paper.name)")
+                    print("Authors: \(paper.authors.joined(separator: ", "))")
+                    if let publishedDate = paper.publishedDate {
+                        print("Published: \(publishedDate)")
+                    }
+                    print("URL: \(paper.url)")
+                }
+                
+                XCTAssertFalse(results.papers.isEmpty, "Should find at least one paper")
+                if let paper = results.papers.first {
+                    XCTAssertFalse(paper.authors.isEmpty, "Paper should have authors")
+                    XCTAssertNotNil(paper.publishedDate, "Paper should have a publication date")
+                }
+                
+                return // Success, exit the retry loop
+                
+            } catch {
+                lastError = error
+                print("Search failed with error: \(error)")
+                
+                if attempt == maxRetries {
+                    throw XCTSkip("Max retries reached. Last error: \(error)")
+                }
+            }
+        }
+    }
+    
 } 

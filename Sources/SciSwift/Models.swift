@@ -13,10 +13,18 @@ public struct SearchResult {
 public struct Paper: Codable {
     public let name: String
     public let url: String
+    public let authors: [String]
+    public let publishedDate: String?
+    public let publishedMonth: Int?
+    public let publishedDay: Int?
     
-    public init(name: String, url: String) {
+    public init(name: String, url: String, authors: [String] = [], publishedDate: String? = nil, publishedMonth: Int? = nil, publishedDay: Int? = nil) {
         self.name = name
         self.url = url
+        self.authors = authors
+        self.publishedDate = publishedDate
+        self.publishedMonth = publishedMonth
+        self.publishedDay = publishedDay
     }
 }
 

@@ -55,8 +55,8 @@ public class SciHub {
         var components = URLComponents(string: "\(semanticScholarBaseURL)/paper/search")
         components?.queryItems = [
             URLQueryItem(name: "query", value: cleanQuery),
-            URLQueryItem(name: "limit", value: String(limit * 2)), // Request more results to filter
-            URLQueryItem(name: "fields", value: "title,externalIds,publicationTypes,year,venue"),
+            URLQueryItem(name: "limit", value: String(limit * 2)),
+            URLQueryItem(name: "fields", value: "title,authors,year,externalIds,publicationTypes,venue"),
             URLQueryItem(name: "offset", value: "0")
         ]
         
@@ -71,14 +71,16 @@ public class SciHub {
             request.addValue(apiKey, forHTTPHeaderField: "x-api-key")
         }
         
+        print("\nMaking request to: \(url.absoluteString)")
         let (data, response) = try await session.data(for: request)
         
         if let httpResponse = response as? HTTPURLResponse {
             print("Response status code: \(httpResponse.statusCode)")
-            print("Request URL: \(url.absoluteString)")
             
+            // Print the raw response data for debugging
             if let responseStr = String(data: data, encoding: .utf8) {
-                print("Response data: \(responseStr.prefix(500))")
+                print("\nResponse data preview:")
+                print(responseStr.prefix(1000))
             }
             
             guard (200...299).contains(httpResponse.statusCode) else {
@@ -94,17 +96,25 @@ public class SciHub {
                 let title: String
                 let externalIds: ExternalIds?
                 let year: Int?
+                let month: Int?
+                let day: Int?
                 let venue: String?
                 let publicationTypes: [String]?
+                let authors: [Author]?
                 
                 struct ExternalIds: Codable {
                     let DOI: String?
                     let ArXiv: String?
                 }
+                
+                struct Author: Codable {
+                    let name: String
+                }
             }
         }
         
         let searchResponse = try decoder.decode(SearchResponse.self, from: data)
+        print("\nDecoded \(searchResponse.data.count) papers")
         
         // Filter and sort papers to prioritize those more likely to be available
         let papers = searchResponse.data
@@ -114,18 +124,52 @@ public class SciHub {
             }
             .prefix(limit)
             .compactMap { paper -> Paper? in
+                let authors = paper.authors?.compactMap { $0.name } ?? []
+                let publishedDate = paper.year.map { String($0) }
+                
+                print("\nProcessing paper:")
+                print("Title: \(paper.title)")
+                print("Authors: \(authors.joined(separator: ", "))")
+                print("Year: \(publishedDate ?? "unknown")")
+                
                 if let doi = paper.externalIds?.DOI {
-                    return Paper(name: paper.title, url: "https://doi.org/\(doi)")
+                    return Paper(
+                        name: paper.title,
+                        url: "https://doi.org/\(doi)",
+                        authors: authors,
+                        publishedDate: publishedDate
+                    )
                 } else if let arxiv = paper.externalIds?.ArXiv {
-                    return Paper(name: paper.title, url: "https://arxiv.org/abs/\(arxiv)")
+                    return Paper(
+                        name: paper.title,
+                        url: "https://arxiv.org/abs/\(arxiv)",
+                        authors: authors,
+                        publishedDate: publishedDate
+                    )
                 }
                 return nil
             }
         
-        return SearchResult(
+        let result = SearchResult(
             papers: Array(papers),
             error: papers.isEmpty ? "No results found" : nil
         )
+        
+        print("\nFinal results:")
+        for paper in result.papers {
+            print("\nTitle: \(paper.name)")
+            print("Authors: \(paper.authors.joined(separator: ", "))")
+            print("Date: \(paper.publishedDate ?? "unknown")")
+            if let month = paper.publishedMonth {
+                print("Month: \(month)")
+            }
+            if let day = paper.publishedDay {
+                print("Day: \(day)")
+            }
+            print("URL: \(paper.url)")
+        }
+        
+        return result
     }
     
     /// Download a paper given its identifier

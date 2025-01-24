@@ -1,0 +1,1933 @@
+{
+  "builtTestProducts" : [
+    {
+      "binaryPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.xctest/Contents/MacOS/SciSwiftPackageTests",
+      "packagePath" : "/Users/petersubrata/Projects/SciSwift2",
+      "productName" : "SciSwiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.SciSwift-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/sources",
+      "importPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Configuration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/HTMLParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Networking.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/SciSwift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Utils.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SwiftSoup.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SciSwift",
+      "moduleOutputPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwift.swiftmodule",
+      "objects" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Models.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwift.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Configuration.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Extensions.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/HTMLParser.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Logger.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Models.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Networking.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/SciSwift.swift",
+        "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Utils.swift"
+      ],
+      "tempsPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SciSwiftPackageTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/sources",
+      "importPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwiftTests.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SciSwiftPackageTests",
+      "moduleOutputPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwiftPackageTests.swiftmodule",
+      "objects" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx12.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/SciSwiftPackageTests-Swift.h",
+        "-color-diagnostics",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwiftPackageTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift"
+      ],
+      "tempsPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SciSwiftTests-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/sources",
+      "importPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Tests/SciSwiftTests/SciSwiftTests.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwift.swiftmodule"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SciSwiftTests",
+      "moduleOutputPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwiftTests.swiftmodule",
+      "objects" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/SciSwiftTests.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx13.0",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g"
+      ],
+      "outputFileMapPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/SciSwiftTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SciSwiftTests.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/petersubrata/Projects/SciSwift2/Tests/SciSwiftTests/SciSwiftTests.swift"
+      ],
+      "tempsPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build",
+      "wholeModuleOptimization" : false
+    },
+    "C.SwiftSoup-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/sources",
+      "importPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ArrayExt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attributes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BinarySearch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BooleanAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Cleaner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Collector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Comment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Connection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CssSelector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Document.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DocumentType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Element.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Elements.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Entities.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Evaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Exception.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/FormElement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HttpStatusException.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Mutex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeTraversor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/OrderedSet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseErrorList.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/QueryParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SerializationException.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SimpleDictionary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StreamReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SwiftSoup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tag.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TextNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Token.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tokeniser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokeniserState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TreeBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnfairLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnicodeScalar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Validate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Whitelist.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlDeclaration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "SwiftSoup",
+      "moduleOutputPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SwiftSoup.swiftmodule",
+      "objects" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.swift.o",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-enable-batch-mode",
+        "-index-store-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-module-cache-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup-Swift.h",
+        "-color-diagnostics",
+        "-swift-version",
+        "5",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-suppress-warnings"
+      ],
+      "outputFileMapPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules/SwiftSoup.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ArrayExt.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attribute.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attributes.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BinarySearch.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BooleanAttribute.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Cleaner.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Collector.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Comment.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Connection.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CssSelector.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataNode.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataUtil.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Document.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DocumentType.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Element.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Elements.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Entities.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Evaluator.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Exception.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/FormElement.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HttpStatusException.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Mutex.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Node.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeTraversor.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeVisitor.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/OrderedSet.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseError.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseErrorList.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseSettings.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Parser.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Pattern.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/QueryParser.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SerializationException.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SimpleDictionary.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StreamReader.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/String.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringBuilder.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringUtil.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SwiftSoup.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tag.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TextNode.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Token.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tokeniser.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokeniserState.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TreeBuilder.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnfairLock.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnicodeScalar.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Validate.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Whitelist.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlDeclaration.swift",
+        "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift"
+      ],
+      "tempsPath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "SciSwift" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SciSwift",
+      "-incremental",
+      "-c",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Configuration.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Extensions.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/HTMLParser.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Logger.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Models.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Networking.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/SciSwift.swift",
+      "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Utils.swift",
+      "-I",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SciSwiftPackageTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SciSwiftPackageTests",
+      "-incremental",
+      "-c",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift",
+      "-I",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx12.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/SciSwiftPackageTests-Swift.h",
+      "-color-diagnostics",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SciSwiftTests" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SciSwiftTests",
+      "-incremental",
+      "-c",
+      "/Users/petersubrata/Projects/SciSwift2/Tests/SciSwiftTests/SciSwiftTests.swift",
+      "-I",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx13.0",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ],
+    "SwiftSoup" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "SwiftSoup",
+      "-incremental",
+      "-c",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ArrayExt.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attribute.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attributes.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BinarySearch.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BooleanAttribute.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Cleaner.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Collector.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Comment.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Connection.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CssSelector.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataNode.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataUtil.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Document.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DocumentType.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Element.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Elements.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Entities.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Evaluator.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Exception.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/FormElement.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HttpStatusException.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Mutex.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Node.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeTraversor.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeVisitor.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/OrderedSet.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseError.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseErrorList.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseSettings.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Parser.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Pattern.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/QueryParser.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SerializationException.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SimpleDictionary.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StreamReader.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/String.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringBuilder.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringUtil.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SwiftSoup.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tag.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TextNode.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Token.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tokeniser.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokeniserState.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TreeBuilder.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnfairLock.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnicodeScalar.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Validate.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Whitelist.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlDeclaration.swift",
+      "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift",
+      "-I",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-enable-batch-mode",
+      "-index-store-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-module-cache-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup-Swift.h",
+      "-color-diagnostics",
+      "-swift-version",
+      "5",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-suppress-warnings",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "SciSwift" : [
+      "SwiftSoup"
+    ],
+    "SciSwiftPackageTests" : [
+      "SciSwiftTests",
+      "SciSwift",
+      "SwiftSoup"
+    ],
+    "SciSwiftTests" : [
+      "SciSwift",
+      "SwiftSoup"
+    ],
+    "SwiftSoup" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift" : {
+      "inputs" : [
+
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift"
+        }
+      ]
+    }
+  },
+  "writeCommands" : {
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Configuration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Extensions.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/HTMLParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Logger.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Models.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Networking.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/SciSwift.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Sources/SciSwift/Utils.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/sources"
+    },
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/sources"
+    },
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.product/Objects.LinkFileList" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<link-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Configuration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Extensions.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/HTMLParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Logger.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Models.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Networking.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/SciSwift.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwift.build/Utils.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/SciSwiftTests.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ArrayExt.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Attributes.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BinarySearch.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/BooleanAttribute.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterExt.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CharacterReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Cleaner.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Collector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CombiningEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Comment.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Connection.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/CssSelector.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DataUtil.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Document.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/DocumentType.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Element.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Elements.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Entities.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Evaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Exception.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/FormElement.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HtmlTreeBuilderState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/HttpStatusException.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Mutex.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Node.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeTraversor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/NodeVisitor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/OrderedSet.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseError.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseErrorList.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/ParseSettings.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Parser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Pattern.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/QueryParser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SerializationException.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SimpleDictionary.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StreamReader.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/String.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StringUtil.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/StructuralEvaluator.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/SwiftSoup.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tag.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TextNode.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Token.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokenQueue.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Tokeniser.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TokeniserState.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/TreeBuilder.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnfairLock.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/UnicodeScalar.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Validate.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/Whitelist.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlDeclaration.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/XmlTreeBuilder.swift.o"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.product/Objects.LinkFileList"
+    },
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/Tests/SciSwiftTests/SciSwiftTests.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftTests.build/sources"
+    },
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ArrayExt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Attributes.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BinarySearch.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/BooleanAttribute.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterExt.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CharacterReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Cleaner.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Collector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CombiningEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Comment.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Connection.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/CssSelector.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DataUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Document.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/DocumentType.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Element.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Elements.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Entities.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Evaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Exception.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/FormElement.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HtmlTreeBuilderState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/HttpStatusException.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Mutex.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Node.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeTraversor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/NodeVisitor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/OrderedSet.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseError.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseErrorList.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/ParseSettings.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Parser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Pattern.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/QueryParser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SerializationException.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SimpleDictionary.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StreamReader.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/String.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StringUtil.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/StructuralEvaluator.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/SwiftSoup.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tag.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TextNode.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Token.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokenQueue.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Tokeniser.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TokeniserState.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/TreeBuilder.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnfairLock.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/UnicodeScalar.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Validate.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/Whitelist.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlDeclaration.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/petersubrata/Projects/SciSwift2/.build/checkouts/SwiftSoup/Sources/XmlTreeBuilder.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SwiftSoup.build/sources"
+    },
+    "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/master.swiftdeps"
+  },
+  "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.derived/runner.swift": {
+    "dependencies": "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.d",
+    "object": "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.swift.o",
+    "swiftmodule": "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner~partial.swiftmodule",
+    "swift-dependencies": "/Users/petersubrata/Projects/SciSwift2/.build/arm64-apple-macosx/debug/SciSwiftPackageTests.build/runner.swiftdeps"
+  }
+}
